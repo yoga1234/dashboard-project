@@ -5,18 +5,25 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* sidebar top */
 .sidebar {
   /* change the width with grid system later */
-  width: 300px;
+  width: 100%;
   height: 100vh;
   background-color: rgb(61, 191, 247);
-  padding-top: 50px;
-  padding-left: 15px;
 }
 .sidebar-top {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 50px;
+  margin-left: 25px;
 }
 .sidebar-top svg {
   height: 50px;
@@ -35,6 +42,7 @@ body {
 /* sidebar middle */
 .sidebar-middle {
   padding-top: 50px;
+  margin-left: 25px;
 }
 .sidebar-middle .middle-link {
   display: grid;
@@ -55,6 +63,7 @@ body {
 /* sidebar bottom */
 .sidebar-bottom {
   padding-top: 25px;
+  margin-left: 25px;
 }
 .sidebar-bottom .bottom-link {
   display: grid;
@@ -71,4 +80,13 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 600;
+}
+/* header */
+.header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.sidebar-top-left svg {
+  height: 25px;
+  width: 25px;
 }
