@@ -1,0 +1,49 @@
+/* notes--- */
+/* font-family: "Montserrat", sans-serif; */
+/* notes--- */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* sidebar top */
+.sidebar {
+  /* change the width with grid system later */
+  width: 300px;
+  background-color: rgb(61, 191, 247);
+}
+.sidebar-top {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.sidebar-top svg {
+  height: 50px;
+  width: 50px;
+  place-self: center;
+  fill: #ffffff;
+}
+.sidebar-top p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+/* sidebar middle */
+.sidebar-middle .middle-link svg {
+  height: 25px;
+  width: 25px;
+  fill: #ffffff;
+}
+.sidebar-middle .middle-link p {
+  color: #ffffff;
+}
+/* sidebar bottom */
+.sidebar-bottom .bottom-link svg {
+  height: 25px;
+  width: 25px;
+  fill: #ffffff;
+}
+.sidebar-bottom .bottom-link p {
+  color: #ffffff;
+}
