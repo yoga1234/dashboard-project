@@ -9,7 +9,10 @@ body {
 .sidebar {
   /* change the width with grid system later */
   width: 300px;
+  height: 100vh;
   background-color: rgb(61, 191, 247);
+  padding-top: 50px;
+  padding-left: 15px;
 }
 .sidebar-top {
   display: grid;
@@ -30,20 +33,42 @@ body {
   color: #ffffff;
 }
 /* sidebar middle */
+.sidebar-middle {
+  padding-top: 50px;
+}
+.sidebar-middle .middle-link {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 .sidebar-middle .middle-link svg {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   fill: #ffffff;
+  place-self: center;
 }
 .sidebar-middle .middle-link p {
   color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 /* sidebar bottom */
+.sidebar-bottom {
+  padding-top: 25px;
+}
+.sidebar-bottom .bottom-link {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 .sidebar-bottom .bottom-link svg {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   fill: #ffffff;
+  place-self: center;
 }
 .sidebar-bottom .bottom-link p {
   color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
