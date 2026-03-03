@@ -130,3 +130,48 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
+.header-bottom {
+  display: grid;
+  grid-template-columns: 850px 1fr;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+.header-bottom-left {
+  display: grid;
+  grid-template-columns: 75px auto;
+}
+.header-bottom-left .profile-icon img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.header-bottom-left .name-display {
+  padding-top: 2px;
+}
+.header-bottom-left .name-display p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+}
+.header-bottom-left .name-display p:nth-child(2) {
+  font-size: 27px;
+  font-weight: 600;
+}
+.header-bottom-right {
+  display: grid;
+  grid-template-columns: 175px 175px 175px;
+  padding-top: 15px;
+}
+.header-bottom-right button {
+  padding: 12px 32px 12px 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  background-color: #60abf5;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+}
