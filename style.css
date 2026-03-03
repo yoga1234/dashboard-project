@@ -21,7 +21,7 @@ body {
 }
 .sidebar-top {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   margin-top: 50px;
   margin-left: 25px;
 }
@@ -85,8 +85,48 @@ body {
 .header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
 }
-.sidebar-top-left svg {
-  height: 25px;
+.header-top {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.header-top-left {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.header-top-left svg {
+  height: 30px;
+  width: 30px;
+  padding-top: 2px;
+}
+.header-top-left input {
+  width: 600px;
+  height: 30px;
+  border: 1px solid #bfbfbf;
+  outline-style: none;
+  border-radius: 20px;
+}
+.header-top-right {
+  display: grid;
+  grid-template-columns: 50px 50px 1fr;
+}
+.header-top-right svg {
   width: 25px;
+  height: 25px;
+  place-self: center;
+}
+.header-top-right img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  place-self: center;
+}
+.header-top-right p {
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
 }
