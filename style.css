@@ -1,9 +1,12 @@
 /* notes--- */
 /* font-family: "Montserrat", sans-serif; */
 /* notes--- */
+html,
 body {
   margin: 0px;
   padding: 0px;
+  height: 100vh;
+  overflow: hidden;
 }
 .main-container {
   display: grid;
@@ -182,6 +185,7 @@ body {
   padding-left: 25px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  height: 100%;
 }
 .projects .project-title {
   font-family: "Montserrat", sans-serif;
@@ -259,4 +263,40 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 1.5;
+}
+/* trending */
+.trending {
+  margin-top: 50px;
+}
+.trending-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.trending-card {
+  display: grid;
+  grid-template-columns: 55px auto;
+  margin-top: 15px;
+}
+.trending-card .card-icon {
+  place-self: center;
+}
+.trending-card .card-icon img {
+  height: 50px;
+  width: 50px;
+}
+.trending-card .text {
+  margin-left: 20px;
+}
+.trending-card .text .tag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.trending-card .text .name {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  color: rgba(0, 0, 0, 0.5);
 }
